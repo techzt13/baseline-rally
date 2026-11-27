@@ -39,5 +39,37 @@ Pause - Escape
 
 ---
 
+## Shot Types
 
+Flat Drive - Low arc, high pace. Use for winners inside the baseline.
+Topspin - High clearnace, dips sharply, kicks forward onbounce.
+Slice - Floats low over the net, skids on landing, buys time.
+Lob - High defensive arc to clear a net-rushing opponent.
 
+---
+
+## Difficulty Tiers
+
+Rookie - 420ms reaction delay, 200 px/s movment
+Club Player - 250ms reaction delay, 265 px/s movement
+Tour Pro - 110ms reaction deloy, 330 px/s movement
+
+---
+
+## Match Formats
+
+1-Set Sprint - First to 6 games wins.
+Best-of-3 Sets - First to win 2 sets wins the match.
+Endless Practice - No score tracking, rally indefinitely.
+
+---
+
+## Physics Notes
+
+The ball tracks, x,y, and z coordinates. Gravity and spin affect the z-axis each frame. The 2.5D effect comes from offsetting the draw postion by ball.z and scaling the raidu with height. Net height is 28 units; balls crossing below z = 24 are dead.
+
+---
+
+## License
+
+MIT
